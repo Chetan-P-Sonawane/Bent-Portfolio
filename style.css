@@ -40,6 +40,7 @@ html, body{
 
 #intro{
     width:100%;
+    height:60%;
     background-color: #F5F3EF;
     padding:60px;
 }
@@ -223,4 +224,98 @@ html, body{
         }
        
     }
+}
+
+
+#scrollanimation{
+    width:100%;
+    height:29%;
+    overflow: hidden;
+    margin-top: -20px;
+    /* background-color: blue; */
+
+
+    h1{
+        font-size: 160px;
+        line-height: 160px;
+        letter-spacing: -2px;
+        padding-top: -60px;
+        text-wrap: nowrap;
+        /* overflow: hidden; */
+        transform:translateX(-168px);
+        /* background-color: red; */
+    }
+}
+
+#camerabanner{
+      height:90%;
+      width:100%;
+      background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad0d8364135d4087b9c8_project-01-p-2000.webp);
+      background-size:fill;
+      background-position: center;
+}
+
+.projectwork{
+    width:100%;
+    height:32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:70px;
+    /* background-color: #f17474; */
+
+    h1{
+        font-size: 140px;
+        width:58%;
+        letter-spacing:-1px;
+        /* background-color: #fcc6c6; */
+    }
+
+    .workright{
+        width:42%;
+        height:100%;
+       /* background-color: #9e9e9e; */
+
+       h3{
+        margin-top:-22px;
+        font-size:20px;
+        font-weight:500;
+        word-spacing: 2px;
+        line-height:32px;
+        color:#5E5D5E;
+       }
+
+       .workright-bottom{
+        padding-top: 48px;
+        display: flex;
+        gap:8px;
+
+        h5{
+            padding:8px 15px;
+            /* border:1px solid #000; */
+            background-color: #000;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            color:#fff;
+            border-radius: 20px;
+        }
+       }
+    }
+    
+}
+
+#noisebanner{
+    height:90%;
+    width:100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad129d3885d86c115c7f_project-02-p-2000.webp);
+    background-size:fill;
+    background-position: center;
+}
+
+#robotbanner{
+    height:90%;
+    width:100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03-p-2000.webp);
+    background-size:fill;
+    background-position: center;
 }
