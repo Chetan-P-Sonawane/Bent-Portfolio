@@ -18,7 +18,7 @@ html, body{
 }
 
 #nav{
-    width:100%;
+    width:100vw;
     display: flex;
     align-items:center;
     justify-content: flex-end;
@@ -43,12 +43,12 @@ html, body{
     width:100%;
     height:60%;
     background-color: #F5F3EF;
-    padding:60px;
+    padding:4vw;
 }
 
 #intro h1{
-    font-size: 140px;
-    line-height: 145px;
+    font-size:8.96vw;
+    line-height: 9.5vw;
     letter-spacing: -1px;
 }
 
@@ -60,12 +60,12 @@ html, body{
 }
 
 #place h3{
-    font-size:30px;
+    font-size: 1.95vw;
     font-weight: 600;
 }
 
  #place h4{
-    font-size:35px;
+    font-size:2.3vw;
     font-weight: 600;
 }
 
@@ -90,18 +90,17 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:60px;
+    padding:4vw;
 
 
 
 
     h2{
         width:63%;
-        font-size: 85px;
-        line-height:85px;
+        font-size:5.54vw;
+        line-height:5.54vw;
         letter-spacing: 1.5px;
-        margin-right: 50px;
-        
+        margin-right:3.3vw;
     }
 
     #about-part2{
@@ -111,10 +110,10 @@ html, body{
         flex-direction: column;
         justify-content: space-between;
         border-left: 3px solid #000;
-        padding: 0 70px;
+        padding: 0 4.6vw;
 
         h3{
-            font-size:32px;
+            font-size:2.1vw;
             font-weight: 600;
             letter-spacing: 1px;
         }
@@ -129,7 +128,7 @@ html, body{
             margin-right: 12px;
             background-color: #000;
             color:#fff;
-            font-size: 25px;
+            font-size:1.6vw;
             border-radius: 50%;
         }
     }
@@ -137,7 +136,7 @@ html, body{
 
 #work{
     width:100%;
-    padding:0 60px 60px 60px;
+    padding:0 4vw 4vw 4vw; 
     height:90%;
 
     #workmain{
@@ -146,7 +145,7 @@ html, body{
             border-top: 2px solid #000;
             border-bottom: 3px solid #000;
             display: flex;
-            padding: 60px 0;
+            padding: 3.9vw 0;
 
     }
 
@@ -156,16 +155,14 @@ html, body{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-
-         padding-right: 60px;
+         padding-right: 4.01vw;
 
         h3{
-            font-size: 30px;
+            font-size:1.95vw;
         }
 
         i{
-            font-size: 45px;
-
+            font-size:2.9vw;
         }
     }
 
@@ -174,7 +171,7 @@ html, body{
         height:100%;
         display: flex;
         flex-direction: column;
-        padding:0 0 60px 60px;
+        padding: 0 0 4vw 4vw;
         border-left: 3px solid #000;
 
         .work2-p{
@@ -189,12 +186,12 @@ html, body{
 
         .work2-p:nth-child(1){
             border-bottom: 2px solid #000;
-            padding: 0 0px 65px 0;
+            padding: 0 0 4.2vw 0;
 
         }
 
         .work2-p:nth-child(2){
-            padding:  70px 0px 0 0;
+            padding: 4.55vw 0 0 0;
 
         }
 
@@ -202,30 +199,34 @@ html, body{
             width:50%;
             height:100%;
             h3{
-                font-size: 42px;
+                font-size:2.75vw; 
+                /* 42px */
                 font-weight: 600;
-                line-height: 45px;
+                line-height: 2.95vw;
+                /* 45px */
                 letter-spacing:1px;
             }
         
             h5{
-                font-size: 18px;
+                font-size:1.18vw;
+                /* 18px */
                 font-weight: 400;
                 color: #5E5D5E;
-                padding-top: 10px;
-                line-height: 28px;
+                padding-top: 0.6vw;
+                line-height: 1.8vw;
+                /* 28px */
                 word-spacing: 1.5px;
             }
         }
 
         .work2-p .child:nth-child(1){
             border-right: 2px solid #000;
-            padding-right:60px;
+            padding-right: 4.1vw;
 
         }
 
         .work2-p .child:nth-child(2){
-            padding-left:60px;
+            padding-left:3.9vw;
         }
        
     }
@@ -234,25 +235,21 @@ html, body{
 
 #scrollanimation{
     width:100%;
-    height:29vh;
+    height:14vw;
     overflow: hidden;
     margin-top: -20px;
-    /* background-color: blue; */
 
 
     h1{
-        font-size: 160px;
-        line-height: 160px;
+        font-size: 10.4vw;
+        line-height: 10.4vw;
         letter-spacing: -2px;
-        padding-top: -60px;
         text-wrap: nowrap;
-        /* overflow: hidden; */
         transform:translateX(-168px);
-        /* background-color: red; */
     }
 }
 
-#camerabanner{
+#camerabanner, #noisebanner, #robotbanner {
       height:90vh;
       width:100%;
       overflow: hidden;
@@ -271,81 +268,50 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:70px;
-    /* background-color: #f17474; */
+    padding:4.5vw;
 
     h1{
-        font-size: 140px;
+        font-size: 9.1vw;
         width:58%;
         letter-spacing:-1px;
-        /* background-color: #fcc6c6; */
     }
 
     .workright{
         width:42%;
         height:100%;
-       /* background-color: #9e9e9e; */
 
        h3{
         margin-top:-22px;
-        font-size:20px;
+        font-size:1.3vw;
         font-weight:500;
         word-spacing: 2px;
-        line-height:32px;
+        line-height:2.1vw;
         color:#5E5D5E;
        }
 
        .workright-bottom{
-        padding-top: 48px;
+        padding-top: 2.8vw;
         display: flex;
         gap:8px;
 
         h5{
-            padding:8px 15px;
-            /* border:1px solid #000; */
+            padding: 0.5vw 1vw;
             background-color: #000;
-            font-size: 14px;
+            font-size: 0.9vw;
             letter-spacing: 0.5px;
             color:#fff;
-            border-radius: 20px;
+            border-radius: 20px; 
         }
        }
     }
     
 }
 
-#noisebanner{
-    height:90vh;
-    width:100%;
-    overflow: hidden;
-
-    img{
-      height:140%;
-      width:100%;
-      object-fit:cover;
-      object-position: center;
-    }
-}
-
-#robotbanner{
-    height:90vh;
-    width:100%;
-    overflow: hidden;
-  
-    img{
-      height:140%;
-      width:100%;
-      object-fit:cover;
-      object-position: center;
-    }
-}
-
-
 
 
 #myclients{
     width:100%;
-    padding:0 60px 0 60px;
+    padding:0 4vw 0 4vw;
     height:144vh;
     /* removing this line will give full height but border comes till end */
 
@@ -354,8 +320,7 @@ html, body{
              height:100%;
             border-top: 3px solid #000;
             display: flex;
-            padding: 60px 0;
-
+            padding: 3.2vw 0;
     }
 
     #work1{
@@ -364,15 +329,14 @@ html, body{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-
-         padding-right: 60px;
+         padding-right: 4vw;
 
         h3{
-            font-size: 30px;
+            font-size: 1.95vw;
         }
 
         i{
-            font-size: 45px;
+            font-size: 2.9vw;
 
         }
     }
@@ -382,7 +346,7 @@ html, body{
         height:100%;
         display: flex;
         flex-direction: column;
-        padding:0 0 60px 60px;
+        padding:0 0 4vw 4vw;
         border-left: 3px solid #000;
 
 
@@ -398,31 +362,30 @@ html, body{
 
         .work2-p:nth-child(1){
             border-bottom: 2px solid #000;
-            padding: 0 0px 65px 0;
+            padding: 0 0 4.55vw 0;
 
         }
 
         .work2-p:nth-child(2){
-            padding:  70px 0px 0 0;
-
+            padding: 4.55vw 0 0 0;
         }
 
         .work2-p .child{
             width:50%;
             height:100%;
             h3{
-                font-size: 42px;
+                font-size: 2.75vw;
                 font-weight: 600;
-                line-height: 50px;
+                line-height:3.3vw;
                 letter-spacing:1px;
             }
         
             h5{
-                font-size: 18px;
+                font-size: 1.2vw;
                 font-weight: 400;
                 color: #5E5D5E;
-                padding-top: 15px;
-                line-height: 28px;
+                padding-top: 1vw;
+                line-height: 1.8vw;
                 word-spacing: 1.5px;
             }
 
@@ -430,13 +393,12 @@ html, body{
             .profile{
                 display:flex;
                 align-items: center;
-                padding: 20px 0 ;
+                padding: 1.3vw 0;
 
               
                 .profileimg{
-                    height:60px;
-                    width:60px;
-                    /* background-color: red; */
+                    height:4vw;
+                    width:4vw;
                     border-radius: 50%;
                     background-size:contain;
                     background-position: center;
@@ -444,26 +406,21 @@ html, body{
 
                 div{
                     /* height:40px; */
-                    padding-left: 16px;
-
+                    padding-left: 1.05vw;
                   
                     h4{
-                        font-size: 18px;
+                        font-size: 1.17vw;
                         font-weight:600;
                         margin: 0;
                         margin-top: 4px;
                         letter-spacing: 0.5px;
-
-
                     }
-                    h5{
-                        font-size: 18px;
-                        font-weight:600;
-                        margin-top: -10px;
-                        /* padding-top: -10px; */
-                        /* background-color: #f3abab; */
-                        letter-spacing: 0.5px;
 
+                    h5{
+                        font-size: 1.17vw;
+                        font-weight:600;
+                        margin-top: -14px;
+                        letter-spacing: 0.5px;
                     }
                 }
 
@@ -490,12 +447,12 @@ html, body{
 
         .work2-p .child:nth-child(1){
             border-right: 2px solid #000;
-            padding-right:60px;
+            padding-right:4vw;
 
         }
 
         .work2-p .child:nth-child(2){
-            padding-left:60px;
+            padding-left: 4vw;
         }
        
     }
@@ -516,24 +473,30 @@ html, body{
         justify-content: center;
 
         h3{
-            font-size: 32px;
+            font-size: 2.1vw;
             letter-spacing: 1px;
         }
 
         h1{
-            font-size:140px;
+            font-size: 9.1vw;
             word-spacing: -10px;
         }
 
         h4{
             background-color: #fff;
             color:#000;
-            font-size: 18px;
-            font-size: 500;
+            font-size: 1.2vw;
+            font-weight: 500;
             letter-spacing: 1px;
-            padding: 15px 26px;
+            padding: 1.1vw 1.8vw;
             border-radius: 50px;
-            margin-top: 35px;
+            margin-top: 2.2vw;
+
+            &:hover{
+                background-color: black;
+                color: #ffffff;
+                cursor: pointer;
+            }
         }
         
     }
@@ -545,8 +508,393 @@ html, body{
         justify-content: center;
       
         h3{
-            font-size:18px;
-            padding:30px;
+            font-size:1.2vw;
+            padding: 2vw;
         }
     }
+}
+
+@media (max-width: 600px){
+    
+
+    #nav {
+            padding: 25px 15px;
+        
+            h3 {
+                padding: 9px 20px;
+            }
+        
+            #zero {
+                padding: 9px 15px;
+            }
+        }
+
+        #intro {
+           
+            padding: 20vw 8vw;
+            
+        }
+    
+        #intro h1 {
+            font-size: 20vw;
+            line-height:20vw;
+        }
+
+      
+    
+        #place h3 {
+            font-size: 5vw;
+            /* font-weight: 600; */
+        }
+    
+        #place h4 {
+            font-size: 5vw;
+            /* font-weight: 600; */
+        }
+
+      #heroimg {
+        height: 50vh;
+
+        img {
+            object-position: 60% 50%;
+        }
+    }
+
+        #about {
+            height: 35vh;
+            width: 100%;
+            padding: 20vw 6vw;
+
+            h2 {
+                width: 50%;
+                font-size: 4vw;
+                line-height: 5vw;
+                margin-right: 8vw;
+            }
+    
+            #about-part2 {
+                width: 50%;
+                height: 40vw;
+                border-left: 2px solid #000;
+                padding: 3vw;
+    
+                h3 {
+                    font-size: 3.5vw;
+                }
+    
+                #icons {
+                    padding-bottom: 3vw;
+                }
+    
+                #icons i {
+                    padding: 1.5vw;
+                    margin-right: 1vw;
+                    font-size: 3.5vw;
+                }
+            }
+        }
+
+
+        #work {
+            width: 100%;
+            padding: 5vw 6vw;
+            height: 90%;
+    
+            #workmain {
+                width: 100%;
+                height: 100%;
+                border-top: 2px solid #000;
+                border-bottom: 2px solid #000;
+                flex-direction: column;
+                padding: 4vw 0;
+    
+            }
+    
+            #work1 {
+                width: 100%;
+                height: 100%;
+                justify-content:flex-start;
+    
+                padding-bottom: 3vw;
+    
+                h3 {
+                    font-size: 4vw;
+                }
+    
+                i {
+                    font-size: 5vw;
+    
+                }
+            }
+    
+            #work2 {
+                width: 100%;
+                height: 100%;
+                padding: 10vw 5vw;
+                border-left:none;
+                border-top: 2px solid #000;
+                /* background-color: red; */
+    
+                .work2-p {
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+    
+    
+                .work2-p:nth-child(1) {
+                    border-bottom: 2px solid #000;
+                    padding: 0 0 10vw 0;
+    
+                }
+    
+                .work2-p:nth-child(2) {
+                    padding: 10vw 0 0 0;
+    
+                }
+    
+                .work2-p .child {
+                    width: 50%;
+                    height: 100%;
+    
+                    h3 {
+                        font-size: 5vw;
+                        line-height: 5vw;
+                        letter-spacing: 1px;
+                    }
+    
+                    h5 {
+                        font-size: 3vw;
+                        padding-top: 10px;
+                        line-height: 3.6vw;
+                        word-spacing: 1.5px;
+                    }
+                }
+    
+                .work2-p .child:nth-child(1) {
+                    border-right: 2px solid #000;
+                    padding-right: 6vw;
+    
+                }
+    
+                .work2-p .child:nth-child(2) {
+                    padding-left: 6vw;
+                }
+    
+            }
+        }
+
+
+        #scrollanimation {
+            height: 20vw;
+            padding:4vw 0;
+    
+    
+            h1 {
+                font-size: 10.4vw;
+                line-height: 10.4vw;
+                letter-spacing: 0;
+            }
+        }
+
+        #camerabanner, #noisebanner,  #robotbanner{
+            height: 30vh;
+            width: 100%;
+    
+            img {
+                object-fit:cover;
+                object-position: 50% 0%;
+            }
+        }
+
+    
+
+        /*remove extras-----> */
+
+        .projectwork {
+            width: 100%;
+            height: 40vw;
+            justify-content: center;
+            padding: 10vw 8vw 10vw 8vw;
+    
+            h1 {
+                font-size: 5vw;
+                width: 40%;
+                letter-spacing: 1px;
+            }
+    
+            .workright {
+                width: 60%;
+    
+                h3 {
+                    margin-top: 0px;
+                    font-size: 3vw;
+                    line-height: 3.5vw;
+                }
+    
+                .workright-bottom {
+                    padding-top: 5vw;
+                    gap: 8px;
+    
+                    h5 {
+                        padding: 2vw 3.5vw;
+                        font-size: 2vw;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+    
+        }
+
+        /*<--- remove extras */
+
+         #myclients {
+            width: 100%;
+            padding: 0 6vw 0 6vw;
+            height: 100%;
+            padding: 5vw 6vw;
+            /* removing this line will give full height but border comes till end */
+    
+            #workmain {
+                width: 100%;
+                border-top: 2px solid #000;
+                border-bottom: 2px solid #000;
+                flex-direction: column;
+                padding: 4vw 0;
+    
+            }
+    
+            #work1 {
+                width: 100%;
+                height: 100%;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding-bottom: 3vw;
+    
+                h3 {
+                    font-size: 4vw;
+                }
+    
+                i {
+                    font-size: 5vw;
+                }
+            }
+    
+            #work2 {
+                width: 100%;
+                    height: 100%;
+                    padding: 10vw 5vw;
+                    border-left: none;
+                    border-top: 2px solid #000;
+    
+                .work2-p:nth-child(1) {
+                    border-bottom: 2px solid #000;
+                    padding: 0 0 10vw 0;
+                }
+    
+                .work2-p:nth-child(2) {
+                    padding: 10vw 0 0 0;
+                }
+    
+                .work2-p .child {
+                    width: 50%;
+                    height: 100%;
+    
+                    h3 {
+                        font-size: 5vw;
+                        line-height: 5vw;
+                    }
+    
+                    h5 {
+                        font-size: 3vw;
+                        line-height: 3.5vw;
+                    }
+    
+    
+                    .profile {
+                        padding: 4.8vw 0;
+    
+                        .profileimg {
+                            height: 10vw;
+                            width: 10vw;
+                        }
+    
+                        div {
+                            padding-left: 2vw;
+    
+                            h4 {
+                                font-size: 3vw;
+                            }
+    
+                            h5 {
+                                font-size: 3vw;
+                                padding-top:12px;
+                            }
+                        }
+    
+                        #profile1 {
+                            background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/645df9b1ddb30689f693619c_author-testimonial-01.webp);
+                        }
+    
+                        #profile2 {
+                            background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/645df9b75d697295b1a21b75_author-testimonial-02.webp);
+                        }
+    
+                        #profile3 {
+                            background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/645df9b9d9ff6c360ce1b9af_author-testimonial-03.webp);
+                        }
+    
+                        #profile4 {
+                            background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/645df9bb53c544e081ce78e2_author-testimonial-04.webp);
+                        }
+                    }
+                }
+    
+                .work2-p .child:nth-child(1) {
+                    border-right: 2px solid #000;
+                    padding-right: 4vw;
+                }
+    
+                .work2-p .child:nth-child(2) {
+                    padding-left: 4vw;
+                }
+            }
+      }
+
+
+#footer {
+
+    #footerheadings {
+        height: 56vh;
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        h1 {
+            font-size: 10vw;
+            word-spacing: 0px;
+            padding: 2vw 0;
+        }
+
+        h4 {
+            font-size: 3vw;
+            padding: 2.4vw 4vw;
+            margin-top: 35px;
+        }
+
+    }
+
+
+    #copyright{
+
+        h3 {
+            font-size: 4vw;
+            padding: 5vw;
+            font-weight:500;
+        }
+    }
+}
+
+
 }
